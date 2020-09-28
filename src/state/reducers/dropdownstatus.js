@@ -16,10 +16,11 @@ const defaultState = {
 
 
 // REDUCER
-export const demoStatus = (state = defaultState, action) => {
+export const dropdownStatus = (state = defaultState, action) => {
+	let newState = Object.assign({}, state);
     switch (action.type) {
         case SAMPLE_ACTION:
         default:
-            console.log('please add correct code here')
+            return newState;
     }
 };
