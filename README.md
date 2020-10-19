@@ -31,8 +31,7 @@ Please create a react application to handle this Selectable, Dropdown element. P
 
 - Use [create-react-app from NPM](https://www.npmjs.com/package/create-react-app) for easy app startup boilerplate
 - Please use [fontawesome](https://fontawesome.com/icons?d=gallery&m=free) for the iconography
-- Architecture, Code Quality, and UX counts!
-- We have imported an array of sites to the app component, to be used in the dropdown.
+- Code Quality, UI, and UX count heavily!
 
 ## Nice to haves (not required)
 
