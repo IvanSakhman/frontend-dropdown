@@ -7,18 +7,17 @@ Please download the React app from this GIT repo.<br />
 We've setup a basic framework for you to work within.<br />
 Please follow the instructions below and send a GITHUB link or a zip of your project files when completed.
 
-### Estimated Time: 4h
+*Estimated Time: 4h*
 
 
 ## Assets
 
 [Dropdown Design in Abstract](https://share.goabstract.com/81867b88-8702-4cf1-af95-956b2fc66234)
 
-## Architecture
+## Expected Architecture
 
-- This is a React/Redux app
 - Create a JSON data file that represents the websites listed in the dropdown
-- Fetch this data and store it in app state
+- Fetch this data and store it in application state
 
 ## Expected UI
 
@@ -31,16 +30,19 @@ Please follow the instructions below and send a GITHUB link or a zip of your pro
 - When filter button is clicked, we should log all the items that we have stored in redux.
 - "All Sites" label should change to read how many sites have been selected. (ex: 3 sites selected)
 
+## Nice to haves
+*(not required)*
+
+- User should be able to filter via search within the dropdown items.
+- User should be able to select all checkboxes.
+- User should be able to deselect all checkboxes.
+
 ## Tips
 
 - Please use [fontawesome](https://fontawesome.com/icons?d=gallery&m=free) for the iconography
 - Code Quality, UI, and UX count heavily!
 
-## Nice to haves (not required)
 
-- User should be able to filter via search within the dropdown items.
-- User should be able to select all checkboxes.
-- User should be able to deselect all checkboxes.
 ---
 
 

@@ -30,15 +30,15 @@ __________ Expected Functionality __________
 	- "All Sites" label should change to read how many sites have been selected. (ex: 3 sites selected)
 
 
-__________ Tips __________
-	- Please use fontawesome (https://fontawesome.com/icons?d=gallery&m=free) for the iconography
-	- Code Quality, UI, and UX count heavily!
-
-
 __________ Nice to haves (not required) __________
     - User should be able to filter via search within the dropdown items.
     - User should be able to select all checkboxes.
     - User should be able to deselect all checkboxes.
+
+
+__________ Tips __________
+	- Please use fontawesome (https://fontawesome.com/icons?d=gallery&m=free) for the iconography
+	- Code Quality, UI, and UX count heavily!
 
 
 
