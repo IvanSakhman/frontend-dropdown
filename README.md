@@ -1,35 +1,38 @@
-# Insticator Front-End Code Challenge - Searchable, Selectable, Dropdown
+# Insticator Front-End Code Challenge - Multi-Select Dropdown
 
-Thanks for taking this coding challenge. 
+Thanks for working on this coding challenge.<br /> 
 We appreciate you taking the time to showcase your skills.
 
-Please create a react application to handle this Selectable, Dropdown element. Please send a GITHUB link or a zip of your project files when completed.
+Please download the React app from this GIT repo.<br />
+We've setup a basic framework for you to work within.<br />
+Please follow the instructions below and send a GITHUB link or a zip of your project files when completed.
+
+### Estimated Time: 4h
 
 
 ## Assets
 
-[Dropdown Design in Abstract](https://share.goabstract.com/372d03a1-f1bd-4db0-b447-308d10f45352?collectionLayerId=18f697ed-7db3-42f6-84f4-8ac42ae2ef13&mode=build)
+[Dropdown Design in Abstract](https://share.goabstract.com/81867b88-8702-4cf1-af95-956b2fc66234)
 
-## Expected Architecture
+## Architecture
 
-- Please use React/Redux	
+- This is a React/Redux app
 - Create a JSON data file that represents the websites listed in the dropdown
 - Fetch this data and store it in app state
 
 ## Expected UI
 
 - End result should match the given design
-- User should be able to scroll vertically the list of dropdown items (if you need to make the box shorter to showcase this, please do)
+- User should be able to scroll vertically the list of dropdown items<br />(if you need to make the box shorter or add more data to showcase this, please do)
 
 ## Expected Functionality
 
-- When item is selected, we should add/remove item from reducer.
-- When filter button is clicked, we should log all items that we have stored in redux.
+- When an item is selected, we should add/remove item from the reducer.
+- When filter button is clicked, we should log all the items that we have stored in redux.
 - "All Sites" label should change to read how many sites have been selected. (ex: 3 sites selected)
 
 ## Tips
 
-- Use [create-react-app from NPM](https://www.npmjs.com/package/create-react-app) for easy app startup boilerplate
 - Please use [fontawesome](https://fontawesome.com/icons?d=gallery&m=free) for the iconography
 - Code Quality, UI, and UX count heavily!
 
