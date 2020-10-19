@@ -3,7 +3,7 @@
 Thanks for taking this coding challenge. 
 We appreciate you taking the time to showcase your skills.
 
-Please create a react application to handle this Searchable, Selectable, Dropdown element. Please send a GITHUB link or a zip of your project files when completed.
+Please create a react application to handle this Selectable, Dropdown element. Please send a GITHUB link or a zip of your project files when completed.
 
 
 ## Assets
@@ -23,11 +23,9 @@ Please create a react application to handle this Searchable, Selectable, Dropdow
 
 ## Expected Functionality
 
-- User should be able to filter via search within the dropdown items
-- User should be able to select all checkboxes
-- User should be able to deselect all checkboxes
-- "All Sites" label should change to read how many sites have been selected (ex: 3 sites selected)
-- When filter button is clicked, we should update a property in redux with those selected filters
+- When item is selected, we should add/remove item from reducer.
+- When filter button is clicked, we should log all items that we have stored in redux.
+- "All Sites" label should change to read how many sites have been selected. (ex: 3 sites selected)
 
 ## Tips
 
@@ -35,8 +33,11 @@ Please create a react application to handle this Searchable, Selectable, Dropdow
 - Please use [fontawesome](https://fontawesome.com/icons?d=gallery&m=free) for the iconography
 - Architecture, Code Quality, and UX counts!
 
+## Nice to haves (not required)
 
-
+- User should be able to filter via search within the dropdown items.
+- User should be able to select all checkboxes.
+- User should be able to deselect all checkboxes.
 ---
 
 
