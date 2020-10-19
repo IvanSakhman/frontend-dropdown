@@ -3,6 +3,9 @@
 import React from 'react';
 // material
 import DropDown from '../material/dropdown/dropdown';
+// utils
+//SITE DATA
+import { sites } from '../utils/data';
 // styles
 import './app.css';
 
