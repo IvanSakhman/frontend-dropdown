@@ -1,4 +1,4 @@
-# Insticator Front-End Code Challenge - Multi-Select Dropdown
+# Insticator FE Code Challenge - Multi-Select Dropdown
 
 Thanks for working on this coding challenge.<br /> 
 We appreciate you taking the time to showcase your skills.
@@ -30,8 +30,7 @@ Please follow the instructions below and send a GITHUB link or a zip of your pro
 - When filter button is clicked, we should log all the items that we have stored in redux.
 - "All Sites" label should change to read how many sites have been selected. (ex: 3 sites selected)
 
-## Nice to haves
-*(not required)*
+## Nice to haves *(not required)*
 
 - User should be able to filter via search within the dropdown items.
 - User should be able to select all checkboxes.
