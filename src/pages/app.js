@@ -1,23 +1,22 @@
-/* ++++++++++ --------------- IMPORTS --------------- ++++++++++ */
-// libraries
-import React from 'react';
-// material
-import DropDown from '../material/dropdown/dropdown';
-// styles
-import './app.css';
+import React, { useEffect, useCallback } from "react";
+import { useDispatch } from "react-redux";
+import { fetchSites } from "../state/actions/dropdown-status";
+import dropdownData from "../data/sites.json";
+import DropDown from "../components/dropdown";
+import "./app.css";
 
+const App = () => {
+  const dispatch = useDispatch();
+  const fetchAllSites = useCallback((data) => dispatch(fetchSites(data)), []);
+  useEffect(() => {
+    fetchAllSites(dropdownData);
+  }, []);
 
-
-/* ========== ~~~~~~~~~~ APP ~~~~~~~~~~ ========== */
-const App = (props) => {
   return (
     <div className={`app`}>
       <DropDown />
     </div>
-  )
+  );
 };
 
-
-
-/* ++++++++++ --------------- EXPORTS --------------- ++++++++++ */
 export default App;
